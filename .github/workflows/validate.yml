@@ -3,7 +3,7 @@ name: Validar Script Shell
 on:
   push:
     branches:
-      - main  # Se ejecuta cada vez que se hace push a main
+      - master  # Se ejecuta cada vez que se hace push a master
 
 jobs:
   shellcheck:
